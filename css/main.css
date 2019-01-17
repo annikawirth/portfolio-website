@@ -1,0 +1,249 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  background-color: #F7F7F7;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+#introduction, #about, #contact, #portfolio {
+  height: 650px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/****** HEADER *****/
+
+header {
+  height: 40px;
+  padding-bottom: 70px;
+}
+
+header h1 {
+  margin: 0 auto;
+  padding: 25px 0 0px 25px;
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
+}
+
+nav {
+  margin: 0 auto;
+  float:right;
+  padding: 25px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform:uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 50px;
+  color: black;
+}
+
+/****** INDTRODUCTION *****/
+
+/****** Code for using picture as the background ******/
+
+#introduction {
+  background: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/***** Code for using CSS as slanted background *****/
+
+/** .backgroundintroduction {
+  position: absolute;
+  background-color: #c87080;
+  width: 1400px;
+  height: 650px;
+  z-index:-1;
+}
+
+.backgroundintroduction::before {
+  content:"";
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #d8b9bc;
+  transform: skew(-10deg);
+  left: -215px;
+  width: 750px;
+  height:650px;
+  z-index:-1;
+}
+
+*/
+
+#introduction .full-width {
+  width: 1000px;
+  padding-top: 160px;
+  padding-left: 200px;
+  line-height: 60px;
+}
+
+#introduction h1 {
+  font-size: 70px;
+}
+
+#introduction h2 {
+  font-size: 40px;
+  color: #313131;
+}
+
+.script {
+  font-family: 'Zeyada', cursive;
+  font-size: 90px;
+}
+
+/***** ABOUT ******/
+
+
+#about .full-width {
+  width: 700px;
+  padding-top: 80px;
+  padding-left:200px;
+  padding-right:300px;
+}
+
+#about h2 {
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
+  line-height: 5px;
+}
+
+#about h3 {
+  font-weight: bold;
+  color: #3a9ea6;
+}
+
+#about p {
+  line-height: 40px;
+}
+
+/****+ PORTFOLIO +****/
+
+#portfolio {
+  position: relative;
+  text-align: center;
+  background-color: #d8b9bc;
+}
+
+/*** Code for slanted background ***/
+/*
+#portfolio .background {
+  position: absolute;
+  top:85px;
+  height: 495px;
+  width: 2000px;
+  margin: 0 -100px;
+  z-index: -1;
+  background-color: #d8b9bc;
+  transform: rotate(-15deg);
+}
+*/
+
+#portfolio .full-width {
+  padding: 70px 0;
+}
+
+#portfolio img {
+  padding-bottom: 30px;
+}
+
+#portfolio h2 {
+  margin: 0 0 70px 0;
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
+}
+
+#portfolio h3 {
+  font-size: 20px;
+}
+
+/***** CONTACT *****/
+
+
+#contact .full-width {
+  width: 900px;
+  text-align: center;
+}
+
+#contact .third-width {
+  width: 300px;
+}
+
+#contact .calltoaction {
+  text-align: right;
+  padding: 80px 20px 40px 0;
+}
+
+#contact .calltoaction h2 {
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
+  line-height: 5px;
+}
+
+#contact .calltoaction h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact h4 {
+  font-size: 20px;
+  color: #3a9ea6;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul i {
+  padding-right: 35px;
+  font-size: 25px;
+}
+
+#contact p {
+  line-height: 30px;
+}
+
+/***** Footer ******/
+footer {
+  padding: 30px 0;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
+
+footer i {
+  font-size: 13px;
+}
