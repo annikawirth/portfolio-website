@@ -7,8 +7,12 @@ body {
   overflow-x: hidden;
 }
 
-#introduction, #about, #contact, #portfolio {
+#introduction, #contact, #portfolio {
   height: 650px;
+}
+
+#about {
+  height: 750px;
 }
 
 .full-width {
@@ -61,8 +65,6 @@ nav ul li a {
 
 /****** INDTRODUCTION *****/
 
-/****** Code for using picture as the background ******/
-
 #introduction {
   background: url("../img/background.png");
   background-repeat: no-repeat;
@@ -96,8 +98,7 @@ nav ul li a {
 #about .full-width {
   width: 700px;
   padding-top: 80px;
-  padding-left:200px;
-  padding-right:300px;
+  text-align: center;
 }
 
 #about h2 {
@@ -124,17 +125,17 @@ nav ul li a {
 }
 
 #portfolio .full-width {
-  padding: 70px 0;
+  padding: 80px 0;
+}
+
+#portfolio h2 {
+  margin: 0 0 50px 0;
+  font-family: 'Zeyada', cursive;
+  font-size: 50px;
 }
 
 #portfolio img {
   padding-bottom: 30px;
-}
-
-#portfolio h2 {
-  margin: 0 0 70px 0;
-  font-family: 'Zeyada', cursive;
-  font-size: 50px;
 }
 
 #portfolio h3 {
@@ -154,8 +155,7 @@ nav ul li a {
 }
 
 #contact .calltoaction {
-  text-align: right;
-  padding: 80px 20px 40px 0;
+  padding: 80px 0 50px 0;
 }
 
 #contact .calltoaction h2 {
@@ -165,13 +165,12 @@ nav ul li a {
 }
 
 #contact .calltoaction h3 {
-  font-size: 20px;
   font-weight: bold;
+  color: #3a9ea6;
 }
 
 #contact h4 {
   font-size: 20px;
-  color: #3a9ea6;
 }
 
 #contact a {
