@@ -69,31 +69,6 @@ nav ul li a {
   background-size: cover;
 }
 
-/***** Code for using CSS as slanted background *****/
-
-/** .backgroundintroduction {
-  position: absolute;
-  background-color: #c87080;
-  width: 1400px;
-  height: 650px;
-  z-index:-1;
-}
-
-.backgroundintroduction::before {
-  content:"";
-  position:absolute;
-  top: 0;
-  bottom: 0;
-  background-color: #d8b9bc;
-  transform: skew(-10deg);
-  left: -215px;
-  width: 750px;
-  height:650px;
-  z-index:-1;
-}
-
-*/
-
 #introduction .full-width {
   width: 1000px;
   padding-top: 160px;
@@ -147,20 +122,6 @@ nav ul li a {
   text-align: center;
   background-color: #d8b9bc;
 }
-
-/*** Code for slanted background ***/
-/*
-#portfolio .background {
-  position: absolute;
-  top:85px;
-  height: 495px;
-  width: 2000px;
-  margin: 0 -100px;
-  z-index: -1;
-  background-color: #d8b9bc;
-  transform: rotate(-15deg);
-}
-*/
 
 #portfolio .full-width {
   padding: 70px 0;
